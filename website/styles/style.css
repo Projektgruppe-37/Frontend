@@ -1,0 +1,33 @@
+.header-intro{
+ background-color: rgb(255, 140, 140);
+ height: 60px;
+ margin: 0 auto;
+}
+
+#header-title {
+    text-align: center;
+}
+
+.button-func button{
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+.button-func button:not(:last-child) {
+    border-right: none;
+}
+
+.button-func:hover:after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.button-func:hover{
+    background-color: green;
+    width: 60px;
+}
